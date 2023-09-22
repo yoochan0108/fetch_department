@@ -38,3 +38,27 @@ section {
 		}
 	}
 }
+@media screen and (max-width: 789px) {
+	section {
+		margin: 8vh auto;
+
+		article {
+			width: 46%;
+			margin-bottom: 2rem;
+
+			.pic {
+				height: 20vw;
+			}
+		}
+	}
+}
+@media screen and (max-width: 486px) {
+	section {
+		article {
+			width: 100%;
+		}
+		.pic {
+			height: 60vw;
+		}
+	}
+}
